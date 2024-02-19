@@ -45,7 +45,7 @@
   steps:
   - Нажать кнопку "Корзина" в правом верхнем углу
   expected-result: Пользователь должен попасть в "Корзину" 
-  
+
 - summary: Проверка возможности добавлять товар в корзину с главной страницы
   requirement: Добавленный товар должен появиться в корзине
   prerequisites: Открыта главная страница
@@ -93,56 +93,110 @@
   - После перехода в "Корзину" посмотреть появился ли товар в ней
   expected-result: Добавленный товар должен корректно отображаться в корзине
 
-    - summary: Проверка возможности искать товары по ключевому слову
+  - summary: Проверка страницы "Корзина" на наличие заявленного функционала
+  requirement: На странице "Корзина" должны быть все необходимые кнопки
+  prerequisites: 
+  - Открыта "Корзина"
+  - В корзину добавлены несколько товаров
+  steps:
+  - Есть ли кнопка "Вернуться к покупкам"
+  - Есть ли кнопка "Очистить корзину"
+  - Есть ли кнопка "Оформить заказ"
+  - Есть ли кнопка "Удалить товар"
+  expected-result: На странице "Корзина" присутствуют все необходимые для заявленного функционала кнопки
+  
+- summary: Проверка возможности удалить товар из корзины
   requirement: 
   prerequisites: 
   test-data: 
   steps:
   expected-result:
 
-    - summary: Проверка возможности искать товар по категории
+- summary: Проверка возможности вернуться к каталогу товаров из корзины
   requirement: 
   prerequisites: 
   test-data: 
   steps:
   expected-result:
 
-    - summary: Проверка возможности фильтровать товары
+- summary: Проверка возможности очистить корзину
   requirement: 
   prerequisites: 
   test-data: 
   steps:
   expected-result:
 
-    - summary: 
+- summary: Проверка возможности перейти на страницу оплаты из корзины
   requirement: 
   prerequisites: 
   test-data: 
   steps:
   expected-result:
 
-    - summary: 
+- summary: Проверка возможности оформить заказ на странице оплаты
   requirement: 
   prerequisites: 
   test-data: 
   steps:
   expected-result:
 
-    - summary: 
+- summary: Проверка возможности закрыть страницу оплаты
   requirement: 
   prerequisites: 
   test-data: 
   steps:
   expected-result:
 
-    - summary: 
+- summary: Проверка возможности искать товары по ключевому слову
   requirement: 
   prerequisites: 
   test-data: 
   steps:
   expected-result:
 
-    - summary: 
+- summary: Проверка возможности искать товар по категории
+  requirement: 
+  prerequisites: 
+  test-data: 
+  steps:
+  expected-result:
+
+- summary: Проверка возможности фильтровать товары
+  requirement: 
+  prerequisites: 
+  test-data: 
+  steps:
+  expected-result:
+
+- summary: Проверка адаптивности сайта для смартфонов
+  requirement: 
+  prerequisites: 
+  test-data: 
+  steps:
+  expected-result:
+
+- summary: 
+  requirement: 
+  prerequisites: 
+  test-data: 
+  steps:
+  expected-result:
+
+- summary: 
+  requirement: 
+  prerequisites: 
+  test-data: 
+  steps:
+  expected-result:
+
+- summary: 
+  requirement: 
+  prerequisites: 
+  test-data: 
+  steps:
+  expected-result:
+
+- summary: 
   requirement: 
   prerequisites: 
   test-data: 
