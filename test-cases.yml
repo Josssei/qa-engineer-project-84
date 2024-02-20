@@ -319,14 +319,14 @@
 - Проверить через какой протокол уходят запросы на сервер
   expected-result: Все запросы идут через протокол HTTPS
 
-- summary: 
-  requirement: 
+- summary: Проверка сайта на защиту от SQL Injection
+  requirement:
   prerequisites: 
   test-data: 
   steps:
   expected-result:
 
-- summary: 
+- summary: Проверка сайта на защиту от XSS атак
   requirement: 
   prerequisites: 
   test-data: 
