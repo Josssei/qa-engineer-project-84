@@ -136,7 +136,7 @@ bugreports:
   summary: |
       Некорректно работает фильтр
   environment: |
-       Версия 121.0.6167.189 (Официальная сборка), (64 бит)
+      Версия 121.0.6167.189 (Официальная сборка), (64 бит)
       Windows 10 Pro
   steps-to-reproduce: |
       Зайти на страницу https://hexlet-products-store.vercel.app/
