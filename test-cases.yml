@@ -316,7 +316,7 @@
   expected-result: Можно ввести только положительное число
 
 - summary: Проверка на кроссбраузерность в Chrome
-  requirement: no data
+  requirement: Корректно ли отображается страница в Опере
   prerequisites: no data
   test-data: no data
   steps:  
@@ -325,7 +325,7 @@
   expected-result: Все данные корректно прогружаются и отображаются
 
 - summary: Проверка на кроссбраузерность в Опере
-  requirement: no data
+  requirement: Корректно ли отображается страница в Опере
   prerequisites: no data
   test-data: no data
   steps: 
