@@ -135,15 +135,15 @@ test-cases:
 bugreports:
   - summary: |
       Некорректно работает фильтр
-  environment: |
+   environment: |
       Версия 121.0.6167.189 (Официальная сборка), (64 бит)
       Windows 10 Pro
-  steps-to-reproduce: |
+   steps-to-reproduce: |
       1. Зайти на страницу https://hexlet-products-store.vercel.app/
       2. Задать любые значения в фильтре
-  expected-result: |
+   expected-result: |
       На странице показаны все товары производителей, что отмечаются в фильтре
-  actual-result: |
+   actual-result: |
       На странице ничего не меняется
 
   - summary: |
